@@ -1,0 +1,263 @@
+/* Position and sizing of burger button */
+.bm-burger-button {
+    position: absolute;
+    width: 36px;
+    height: 30px;
+    right: 0;
+    top: 36px;
+  }
+  
+  /* Color/shape of burger icon bars */
+  .bm-burger-bars {
+    background: #373a47;
+  }
+  
+  /* Color/shape of burger icon bars on hover*/
+  .bm-burger-bars-hover {
+    background: #a90000;
+  }
+  
+  /* Position and sizing of clickable cross button */
+  .bm-cross-button {
+    height: 24px;
+    width: 24px;
+  }
+  
+  .brands_item.d-flex.flex-column.justify-content-center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+  }
+  
+  /* Color/shape of close button cross */
+  .bm-cross {
+    background: white;
+  }
+  
+  /*
+  Sidebar wrapper styles
+  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+  */
+  .bm-menu-wrap {
+    position: fixed;
+    height: 100%;
+  }
+  
+  /* General sidebar styles */
+  .bm-menu {
+    background: #0626AF;
+    padding: 2.5em 1.5em 0;
+    font-size: 1.15em;
+  }
+  
+  /* Morph shape necessary with bubble or elastic */
+  .bm-morph-shape {
+    fill: #373a47;
+  }
+  
+  /* Wrapper for item list */
+  .bm-item-list {
+    color: #b8b7ad;
+    padding: 0.8em;
+  }
+  
+  /* Individual item */
+  .bm-item {
+    display: inline-block;
+  }
+  
+  /* Styling of overlay */
+  .bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+  }
+  
+  span.bm-burger-bars {
+      background: white;
+  }
+  
+  span.bm-burger-bars{
+    height: 13% !important;
+  }
+  
+  .bm-overlay {
+      background: unset !important;
+  }
+  
+  .bm-menu-wrap{
+    top: 0;
+  }
+  
+  @media (max-width:767px){
+  
+     .bm-burger-button{
+         right: 30px;
+             top: 47px;
+     }
+  }
+  
+  
+  /*slider*/
+
+  
+  
+  
+  
+  .brands {
+      width: 100%;
+      padding-top: 90px;
+      padding-bottom: 90px
+  }
+  
+  .brands_slider_container {
+          height: 130px;
+          border: solid 1px #ffffff;
+          padding-left: 97px;
+          padding-right: 97px;
+  
+  }
+  
+  .brands_slider {
+      height: 100%;
+      margin-top: 50px
+  }
+  
+  .brands_item {
+      height: 100%
+  }
+  
+  .brands_item img {
+      max-width: 60%
+  }
+  
+  .row.mx-auto.justify-content-md-center.centrado.my-footer {
+      margin-top: 5px;
+  }
+  
+  .brands_nav {
+      position: absolute;
+      top: 30%;
+      -webkit-transform: translateY(-50%);
+      -moz-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      -o-transform: translateY(-50%);
+      transform: translateY(-50%);
+      padding: 5px;
+      cursor: pointer
+  }
+  
+  .brands_nav i {
+      color: black;
+      -webkit-transition: all 200ms ease;
+      -moz-transition: all 200ms ease;
+      -ms-transition: all 200ms ease;
+      -o-transition: all 200ms ease;
+      transition: all 200ms ease
+  }
+  
+  .brands_nav:hover i {
+      color: #676767
+  }
+  
+  .brands_prev {
+      left: 40px
+  }
+  
+  .brands_next {
+      right: 40px
+  }
+  
+  
+  @media (max-width:545px){
+
+    .tittle {
+      position: absolute;
+      right: 30px;
+      top: -30px;
+  }
+  
+  .bm-burger-button {
+      top: 30px;
+  }
+
+  .box.btnreg {
+    top: 2px;
+  }
+  
+      .brands_next {
+          right: 20px;
+      }
+  
+      .brands_prev {
+          left: 20px;
+      }
+  
+      .brands_nav {
+          position: absolute;
+          top: 30%;
+      }
+  
+      .brands_slider_container {
+      height: 130px;
+      border: solid 1px #ffffff;
+      padding-left: 30px;
+      padding-right: 30px;
+      }
+  
+      .brands_slider_container {
+              height: 100px;
+              border: solid 1px #ffffff;
+              padding-left: 97px;
+              padding-right: 97px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+      }
+  
+      .row.mx-auto.justify-content-md-center.centrado.my-footer {
+          margin-top: unset;
+          padding-top: unset;
+      }
+  }
+  
+  @media (max-width:500px){
+      .brands_slider_container {
+          padding-left: 10px !important;
+          padding-right: 10px !important;
+      }
+  
+      .owl-item {
+      max-width: 120px;
+  }
+  
+      .brands_item.d-flex.flex-column.justify-content-center.brandBoxCar {
+      max-width: 140px;
+      }
+  
+      .owl-item.cloned {
+      margin-right: unset!important;
+      }
+  
+  
+      .owl-item.cloned {
+          margin-right: unset!important;
+      }
+  
+      .owl-item {
+          margin-right: unset !important;
+      }
+  
+      .owl-item.cloned.active {
+          margin: unset !important;
+      }
+  
+      img.imgBrandCar {
+      width: 100%;
+      }
+  }
+  
+  @media (max-width:320px) {
+  .bm-burger-button {
+    top: 30px;
+    }
+}
